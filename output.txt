@@ -1,0 +1,41 @@
+Enter number of cities (2 to 63): 4
+
+Enter the DISTANCE matrix (4 x 4) in kilometres.
+Enter 0 on the diagonal.
+
+0 10 15 20
+10 0 35 25
+15 35 0 30
+20 25 30 0
+
+Enter the FUEL COST PER KM matrix.
+Values can differ by road due to road conditions.
+Enter 0 on the diagonal.
+
+0 2 2 2
+2 0 2 2
+2 2 0 2
+2 2 2 0
+
+Enter the TRAVEL TIME matrix (4 x 4) in hours.
+Include expected delays for road conditions.
+Enter 0 on the diagonal.
+
+0 1 1.5 2
+1 0 2.5 2
+1.5 2.5 0 2
+2 2 2 0
+
+Enter maximum allowed delivery time (hours): 8
+
+-------- OPTIMAL DELIVERY TOUR --------- 
+
+Route: City 1 -> City 2 -> City 4 -> City 3 -> City 1
+
+Minimum total fuel cost: 160.00
+
+Total delivery time: 6.50
+
+Maximum allowed time: 8.00
+
+Time constraint: Satisfied
